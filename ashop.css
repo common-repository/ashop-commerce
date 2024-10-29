@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import "../css/theme/ui.all.css";
+/* CSS Document */
+
+.ashop_product { overflow: auto; border: 1px solid #CCC; padding: 0px; margin: 0px; padding-left: 30px; padding-right: 30px; margin-bottom: 5px; }
+.ashop_product h2 { font-size: 16px; }
+.ashop_product a:hover { text-decoration: underline; }
+.ashop_prodimg { float: left; margin-right: 5px; margin-left: -10px; margin-top: 10px; border: none; }
+.ashop_price { text-align: right; }
+.ashop_priceamount { font-size: 16px; font-weight: bold; }
+.ashop_moreinfo { text-align: center; font-size: 11px; }
+
+/* Autoresponder Signup Form */
+
+#ARform { overflow: hidden; }
+#ARform label { display: block; font-weight: bold; margin: 0 0 4px 0; }
+#ARform input { margin: 0 0 20px 0; display: block; }
+
+#ARform .ARf-title { margin-bottom: 20px !important; }
+#ARform .ARf-row { width: 90%; margin: 0 auto; }
+#ARform .ARf-row input { width: 100%; margin: 0 0 10px 0; }
+#ARform .ARf-info { clear: both; text-align: center; margin: 0 0 20px 0; }
+
+
+/* Horizontal centering */
+#ARform .ARf-hCnt { float: left; left: 50%; position: relative; }
+#ARform .ARfh-In { float: left; left: -50%; position: relative; }
